@@ -1,0 +1,42 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="98" fill="white" stroke="#d0d0d0" stroke-width="4"/>
+
+  <!-- QR code frame (like the actual QR code) -->
+  <rect x="10" y="10" width="180" height="180" fill="none" stroke="#d0d0d0" stroke-width="5" rx="15"/>
+
+  <!-- Dark Blocks to Represent the QR code -->
+  <rect x="30" y="30" width="20" height="20" fill="#333" />
+  <rect x="60" y="30" width="20" height="20" fill="#333" />
+  <rect x="30" y="60" width="20" height="20" fill="#333" />
+  <rect x="90" y="30" width="20" height="20" fill="#333" />
+  <rect x="120" y="30" width="20" height="20" fill="#333" />
+  <rect x="150" y="30" width="20" height="20" fill="#333" />
+  
+  <rect x="30" y="90" width="20" height="20" fill="#333" />
+  <rect x="60" y="90" width="20" height="20" fill="#333" />
+  <rect x="30" y="120" width="20" height="20" fill="#333" />
+  
+  <rect x="90" y="90" width="20" height="20" fill="#333" />
+  <rect x="120" y="90" width="20" height="20" fill="#333" />
+  
+  <rect x="150" y="90" width="20" height="20" fill="#333" />
+  
+  <!-- Adding the large central block -->
+  <rect x="70" y="70" width="20" height="20" fill="#333" />
+  <rect x="90" y="70" width="20" height="20" fill="#333" />
+  <rect x="70" y="90" width="20" height="20" fill="#333" />
+  <rect x="110" y="70" width="20" height="20" fill="#333" />
+  <rect x="90" y="110" width="20" height="20" fill="#333" />
+  
+  <!-- Slight shadows for depth -->
+  <rect x="30" y="30" width="20" height="20" fill="rgba(0, 0, 0, 0.1)" filter="url(#shadow)" />
+  <rect x="60" y="30" width="20" height="20" fill="rgba(0, 0, 0, 0.1)" filter="url(#shadow)" />
+  <rect x="90" y="30" width="20" height="20" fill="rgba(0, 0, 0, 0.1)" filter="url(#shadow)" />
+  
+  <defs>
+    <filter id="shadow" x="-5" y="-5" width="120" height="120">
+      <feDropShadow dx="3" dy="3" stdDeviation="2" flood-color="rgba(0,0,0,0.25)" />
+    </filter>
+  </defs>
+</svg>

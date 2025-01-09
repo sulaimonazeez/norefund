@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 24 24">
+  <!-- Defining Gradient Fill for the Circle -->
+  <defs>
+    <linearGradient id="successCircleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#81c784;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Defining Drop Shadow for the Circle -->
+    <filter id="circleShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="8" dy="8" stdDeviation="12" flood-color="rgba(0, 0, 0, 0.3)" />
+    </filter>
+  </defs>
+
+  <!-- Circle with Gradient Fill and Shadow -->
+  <circle cx="12" cy="12" r="10" fill="url(#successCircleGradient)" filter="url(#circleShadow)" />
+  
+  <!-- Checkmark Inside the Circle -->
+  <path d="M8 12l2 2l4-4" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
