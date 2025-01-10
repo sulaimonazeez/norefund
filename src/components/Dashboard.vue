@@ -66,7 +66,7 @@
 }
 
 .dashboard-header {
-  background-color: #00c853;
+  background-color: #00796b;
   padding: 20px;
   border-radius: 15px;
   color: white;
