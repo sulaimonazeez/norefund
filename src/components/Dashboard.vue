@@ -113,12 +113,12 @@ button:hover {
 }
 
 .send-money {
-  background-color: #00c853;
+  background-color: #00796b;
   color: white;
 }
 
 .receive-money {
-  background-color: #00796b;
+  background-color: #00c853;
   color: white;
 }
 
